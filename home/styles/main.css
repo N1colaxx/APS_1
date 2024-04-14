@@ -1,3 +1,7 @@
+
+
+
+
 main{
     flex: 1;
     
@@ -7,6 +11,7 @@ main{
 
     width: 100%;
     max-width: 1440px;
+    margin-top: 5%;
 }
 
 .main__info{
@@ -16,7 +21,7 @@ main{
 
 .main__info p{
    font-size: 18px;
-   margin: 25px 0 50;
+   margin: 25px 0px 10px;
 }
 
 .main__info div{
@@ -41,6 +46,12 @@ main{
 
 .main__info div a{
     background: var(--VERDE);
+    cursor: pointer;
+    border-radius: 15px;
+ }
+ .main__info div a:hover {
+    background: rgb(13, 63, 20);
+    transform: scale(1.1);
  }
 
  .main__info div button{
