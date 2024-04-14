@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.inovacao {
+    margin-top: 150px;
+    width: 500%;
+}
+
+.container {
+    display: flex;
+    max-width: 1600px;
+    margin: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.text-about {
+    font-family: 'Poppins', sans-serif;
+}
+
+.divisao {
+    padding: 10px;
+}
+
+.img-about>img {
+    width: 42rem;
+    border-radius: 50px;
+    box-shadow: rgba(3, 21, 110, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 140, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.text-about {
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.text-about>h1 {
+    color: #0084ff;
+   
+
+    
+}
+
+.about-text1 {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+body
+{
+    background: url("background_quem\ somos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
