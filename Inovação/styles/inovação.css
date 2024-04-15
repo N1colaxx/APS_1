@@ -12,31 +12,25 @@ body
     overflow:auto;
 }
 
-.inovacao {
+.section  {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     width: 100%;
+
+    /* background: #19b826; */
 }
 
 .container {
     display: flex;
     align-items: center;
-    max-width: 1600px;
-    margin: auto;
-    padding-top: 10px;
-}
 
-
-
-.divisao {
+    width: 80%;
+    height: 90%;
     padding: 10px;
-}
-
-.img-about>img {
-    border-radius: 50px;
-    box-shadow: rgba(3, 21, 110, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 140, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
+    /* background: #0084ff; */
 }
 
 .text-about {
@@ -50,9 +44,6 @@ body
 
 .text-about>h1 {
     color: #0084ff;
-   
-
-    
 }
 
 .about-text1 {
@@ -62,26 +53,87 @@ body
 
 /* ------------------------------------------------------------------------------------------ */
 .contentS {
-    height: 360px;
+    height: 370px;
     width: 563px;
-    border-radius:  20px;
-    overflow:hidden;
-    position: relative;
-    /* top: 50%;
-    left: 50%;
-    transform: translate(-50%); */
+    position: absolute;
+    left: 78%;
+    transform: translate(-78%); /* move o elemento em seu proprio eixo x, y */
 
-    border-radius: 50px;
+    overflow:hidden;
+    border-radius:  20px;
     box-shadow: rgba(3, 21, 110, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 140, 255, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
- .navigation {
+ .navigationSl {
     display: flex;
-    position: relative;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translate(-50%);
 } 
 
-/* .bar {
-    width: 70px;
-    height: 17px;
+.bar {
+    width: 15px;
+    height: 5px;
     border: 2px solid #ffff;
-} */
+    margin: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.6s;
+}
+.bar:hover {
+    background: #ffff;
+}
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%; /* 500% pq são 5img, assim fica 100% para cada img*/
+    height: 100%;
+}
+
+.slide {
+    width: 20%; /* aqui nos dividimos 100% por 5 = 20  para q todos os slides tenhão o mesmo tamanho*/
+    transition: .6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+/* o ( ~ ) serve para fazer uma verificação-> se slide1 for = checked fassa margin-left:0. E assim por diante */
+#slide1:checked ~ .s1{
+    margin-left:0;
+}
+#slide2:checked ~ .s1{
+    margin-left:-20%;
+}
+#slide3:checked ~ .s1{
+    margin-left:-40%;
+}
+#slide4:checked ~ .s1{
+    margin-left:-60%;
+}
+#slide5:checked ~ .s1{
+    margin-left:-80%;
+}
+
+#slide6:checked ~ .s2{
+    margin-left:0;
+}
+#slide7:checked ~ .s2{
+    margin-left:-20%;
+}
+#slide8:checked ~ .s2{
+    margin-left:-40%;
+}
+#slide9:checked ~ .s2{
+    margin-left:-60%;
+}
+#slide10:checked ~ .s2{
+    margin-left:-80%;
+}
