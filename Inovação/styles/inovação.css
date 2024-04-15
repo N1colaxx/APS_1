@@ -1,7 +1,15 @@
 * {
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+}
+
+body
+{
+    background: url("background_quem\ somos.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:auto;
 }
 
 .inovacao {
@@ -10,7 +18,6 @@
     flex-direction: column;
     align-items:center;
     width: 100%;
-    height: 100%;
 }
 
 .container {
@@ -52,12 +59,4 @@
 .about-text1 {
     margin-top: 20px;
     margin-bottom: 30px;
-}
-body
-{
-    background: url("background_quem\ somos.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
 }
