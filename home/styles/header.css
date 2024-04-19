@@ -58,6 +58,7 @@ transition: transform 0.7s;
     column-gap: 24px;
     
 }
+
 .navigation_social svg {
     width: 20px;
     height: 20px;
@@ -65,9 +66,24 @@ transition: transform 0.7s;
 
     transition: all 1000ms;
 }
+
 .navigation_social svg:hover{
     opacity: 2;
     transform: scale(2);
 }
+
+.imgBattery {
+    width: 20px;
+    height: 20px;
+    opacity: 0.5;
+
+    transition: all 1000ms;
+}
+
+.imgBattery:hover{
+    opacity: 2;
+    transform: scale(2);
+}
+
 
  

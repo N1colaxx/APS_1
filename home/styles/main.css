@@ -2,61 +2,60 @@
 
 
 
-main{
+.container{
     flex: 1;
     
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 
     width: 100%;
-    max-width: 1440px;
     margin-top: 5%;
+    gap: 10% ;
 }
+
+.imgCL {
+    width: 500px;
+    height: 250px;
+ }
 
 .main__info{
-    width: 100%;
-    max-width: 570px;
+    width: 30%;
+    /* background-color: blue; */
+    padding: 1%;
 }
 
-.main__info p{
+.main__info .p2{
    font-size: 18px;
-   margin: 25px 0px 10px;
+
 }
 
-.main__info div{
-   display: flex;
-   column-gap: 32px;
+.main__info .p1 {
+    font-size: 30px;
 }
 
-.main__info div a, .main__info div button{
+.btn{
     width: 100%;
-    padding: 2% 0;
-    border-radius: 3px;
+    padding: 2% ;    
 
+    border-radius: 50px;
     font-size: 16px;
-    font-weight: 300;
     text-align: center;
-    text-transform:uppercase;
-    letter-spacing: 0.5px;
     transform: skew(10deg);
     transform: scale(1);
-}
 
-
-.main__info div a{
     background: var(--VERDE);
     cursor: pointer;
-    border-radius: 15px;
- }
- .main__info div a:hover {
+    border: 1px solid #12b69b; 
+
+    margin-top: 30px;
+}
+
+ .btn:hover {
     background: rgb(13, 63, 20);
     transform: scale(1.1);
  }
-
- .main__info div button{
-    border: 1px solid var(--VERDE); 
- }
+ 
  
  
 
