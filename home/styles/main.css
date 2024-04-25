@@ -1,14 +1,12 @@
 
 
-.container{
-    flex: 1;
-    
+.container{  
     display: flex;
     align-items: center;
     justify-content: center;
 
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
     gap: 10% ;
 }
 
@@ -23,14 +21,15 @@
     padding: 1%;
 }
 
+.main__info .p1 {
+    font-size: 30px;
+}
+
 .main__info .p2{
    font-size: 18px;
 
 }
 
-.main__info .p1 {
-    font-size: 30px;
-}
 
 .btn{
     width: 100%;
@@ -55,7 +54,37 @@
  }
  
  
- 
+.title {
+    margin-top: 50px;
+    font-size: 30px;
+}
 
 
+.container-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10%;
+    gap: 10%;
+
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(200, 145, 22) 100%);
+}
+
+.beneficios {
+    height: 55vh;
+    width: 50%;
+    padding: 1%;
+    gap: 10%;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.txt-B {
+    font-size: 17px;
+}
 
