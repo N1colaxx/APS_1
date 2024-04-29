@@ -10,6 +10,30 @@ p {
     font-size: 25px;
  }
 
+.mob {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+
+}
+.mob-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 50%;
+    font-size: 60px;
+    padding: 2%;
+    border-radius: 50px;
+    color: #12b69b;
+    background: #333;
+
+    font-family:"Mukta" ,serif;
+}
+
+
 
 .container{  
     display: flex;
@@ -39,7 +63,7 @@ p {
 
 
 .btn{
-    width: 60%;
+    width: 100%;
     padding: 2% ;    
 
     border-radius: 50px;
@@ -55,12 +79,28 @@ p {
     margin-top: 30px;
 }
 
- .btn:hover {
+ .btn:hover, .btn2:hover {
     background: rgb(13, 63, 20);
     transform: scale(1.1);
  }
+
+ .btn2 {
+     width: auto;
+    padding: 1% ;     
  
- 
+    border-radius: 50px;
+    
+    text-align: center;
+    transform: skew(10deg);
+    transform: scale(1);
+
+    background: #333;
+    cursor: pointer;
+    border: 1px solid #12b69b; 
+
+    margin-top: 10%; 
+ }
+
 
 .container-2 {
     display: flex;
@@ -86,10 +126,14 @@ p {
 
 .label {
     height: auto;
-    width: 30%;
+    width: 35%;
     padding: 1%;
     margin-top: 2%;
    /* background: #12b69b; */
+}
+
+.labelFQA {
+    margin-top: 5%;
 }
 
 
@@ -98,31 +142,29 @@ p {
     display: flex;
     justify-content: center;
     align-items:center;
-    margin-top: 10%;
+    margin-top: 15%;
     gap: 5%;
-  
+  /* background-color: #12b69b; */
   }
 
   .section {
     display: flex;
     flex-direction: column;
     width: 40%;
-    height: 50vh;
-    padding: 1%;
+    height: 75vh;
+    padding: 1%;   
+     /* background-color: #333; */
+
   }
 
   .assunto {
-    /* background-color: #333; */
     margin-top: 5%;
     padding: 2%;
   }
 
 
-
-
-
 footer {
-    margin-top: 30%;
+    margin-top: 5%;
     background-color: #333;
     color: #fff;
     text-align: center;
