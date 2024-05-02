@@ -3,11 +3,11 @@
 
 
 p {
-    font-size: 20px;
+    font-size: 25px;
  }
 
  strong {
-    font-size: 25px;
+    font-size: 30px;
  }
 
 .mob {
@@ -111,7 +111,7 @@ p {
 }
 
 .title {
-    font-size: 50px;
+    font-size: 60px;
     display: flex;
     justify-content: center;
 }
@@ -133,6 +133,10 @@ p {
 }
 
 .labelFQA {
+    height: auto;
+    width: 50%;
+    padding: 1%;
+
     margin-top: 5%;
 }
 
