@@ -3,36 +3,13 @@
 
 
 p {
-    font-size: 25px;
+    font-size: 20px;
  }
+
 
  strong {
-    font-size: 30px;
+    font-size: 20px;
  }
-
-.mob {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 10%;
-
-}
-.mob-1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    width: 50%;
-    font-size: 60px;
-    padding: 2%;
-    border-radius: 50px;
-    color: #12b69b;
-    background: #333;
-
-    font-family:"Mukta" ,serif;
-}
-
 
 
 .container{  
@@ -84,8 +61,10 @@ p {
     transform: scale(1.1);
  }
 
+
+
  .btn2 {
-     width: auto;
+    width: auto;
     padding: 1% ;     
  
     border-radius: 50px;
@@ -101,6 +80,16 @@ p {
     margin-top: 10%; 
  }
 
+ #aling{
+    text-align: center;
+ }
+
+ .title {
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+
 
 .container-2 {
     display: flex;
@@ -110,11 +99,7 @@ p {
     margin-top: 15%;
 }
 
-.title {
-    font-size: 60px;
-    display: flex;
-    justify-content: center;
-}
+
 
 .conteudo {
     display: flex;
