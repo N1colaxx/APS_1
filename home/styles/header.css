@@ -11,6 +11,7 @@
     column-gap: 64px;
     padding-top: 24px;
     width: 70%;
+    /* background-color: aqua; */
 }
 
 header img {
@@ -20,9 +21,10 @@ header img {
 
 .navigation {
     display: flex;
-    align-items: right;
+    justify-content: center;
+    width: 100%;
     column-gap: 48px;
-
+    /* background-color: #1f0d0d; */
     list-style: none;
 }
 .navigation_link {
