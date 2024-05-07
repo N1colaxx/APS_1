@@ -3,39 +3,44 @@
 
 
 p {
-    font-size: 20px;
+    font-size:1em;
  }
 
 
  strong {
-    font-size: 20px;
+    font-size: 1,7em;
  }
 
 
-.container{  
+.container1{  
     display: flex;
     align-items: center;
     justify-content: center;
-
-    width: 100%;
-    margin-top: 10%;
-    gap: 10% ;
+    margin-top: 5%;
+    gap: 10%;
+    /* background: #333; */
 }
 
 .info {
-    width: 50%;
+    width: 40%;
+    height: auto;
+    /* background: #b62b12; */
 }
 
 
-.imgCL {
-    width: 500px;
-    height: 250px;
+.imgCB {
+    width: 50%;
+    height: auto;
+ }
+ .imgCV {
+    width: 30%;
+    /* border: 1px solid #12b69b; */
  }
 
  .p1 {
     display: flex;
     margin-left: 10%;
-    font-size: 50px;
+    font-size: 2em;
  }
 
 
@@ -85,9 +90,10 @@ p {
  }
 
  .title {
-    font-size: 45px;
+    font-size: 2em;
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 
@@ -114,51 +120,52 @@ p {
     width: 35%;
     padding: 1%;
     margin-top: 2%;
-   /* background: #12b69b; */
 }
 
 .labelFQA {
     height: auto;
     width: 50%;
     padding: 1%;
-
     margin-top: 5%;
 }
 
 
-
-.container-3 {
+  .container-3 {
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: flex-start;
     margin-top: 15%;
-    gap: 5%;
-  /* background-color: #12b69b; */
-  }
+    padding: 0 20px;
+    flex-wrap: wrap; /* Adicionado para que as seções possam ser envolvidas */
+}
 
-  .section {
+.section {
+    flex: 1; /* Adicionado para que as seções possam ocupar o espaço disponível */
+    min-width: 300px; /* Ajustado para permitir que as seções diminuam de largura */
+    min-height: 750px;
+    height: auto;
+    padding: 5%;
+
+}
+
+.assunto {
+    margin-top: 5%;
+    padding: 2%;   
     display: flex;
     flex-direction: column;
-    width: 40%;
-    height: 75vh;
-    padding: 1%;   
-     /* background-color: #333; */
+    justify-content: center;
+}
 
-  }
-
-  .assunto {
-    margin-top: 5%;
-    padding: 2%;
-  }
 
 
 footer {
-    margin-top: 5%;
     background-color: #333;
     color: #fff;
+
     text-align: center;
     padding: 20px;
-    
+    margin-top: 5%;
     bottom: 0;
     width: 100%;
+    height: auto;
 }

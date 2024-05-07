@@ -226,9 +226,9 @@
 <main>
 
 
-   <div class="container">
+   <div class="container1">
       <div class="info">
-         <img class="imgCL" src="./assets/carro_eletrico.png" alt="Carro elético">
+         <img class="imgCB" src="./assets/carro_eletrico.png" alt="Carro elético">
           
             <p class="p1"> Intodução  :</p>
             <p>               
@@ -238,7 +238,7 @@
             <a href="https://www.youtube.com/watch?v=nngbWChehXc&ab_channel=Brasscom"target="_blank">Clique aqui para ver o video completo sobre Mobilidade Sustentável</a> 
          </div>
       </div>
-      <img src="./assets/carro_planta.png"width="500px" alt="carro sustentável">
+      <img class="imgCV" src="./assets/carro_planta.png" alt="carro sustentável">
    </div>
    
 
@@ -413,7 +413,7 @@
    <div class="container-3">
       <section class="section">
          <p class="title"> Legislação e Políticas </p>
-         <div class="assunto">
+         <div class="assunto ">
                   <p>
                      <strong><u>Leis e regulamentos:</u></strong>
                         <p>
@@ -423,7 +423,7 @@
                         <p>
                            Planos de mobilidade urbana que visam promover o transporte público e os modos ativos de locomoção, como caminhar e andar de bicicleta.
                         </p>
-                  </p>
+                  </p>                            
          </div>
       </section>
       <section class="section">
@@ -520,5 +520,48 @@
          </footer>
 
 </main>
+
+<script>
+      function equalizeSectionsHeight() {
+         const sections = document.querySelectorAll('.container-3 .section');
+         let maxHeight = 0;
+         sections.forEach(section => {
+            const sectionHeight = section.offsetHeight;
+            if (sectionHeight > maxHeight) {
+               maxHeight = sectionHeight;
+            }
+         });
+         sections.forEach(section => {
+            section.style.minHeight = maxHeight + 'px';
+         });
+      }
+      
+      window.addEventListener('load', equalizeSectionsHeight);
+      window.addEventListener('resize', equalizeSectionsHeight);
+</script>
+
+<!-- 
+         2-> let maxHeight = 0;  , aqui chama a VAR maxHeight, e inicializa com o valor 0, E será usada para achar  a altura máxima  entre as sections.
+
+         3-> sections.forEach(section => { ... });    -> aqui chamamos o metodo forEach em todas as SEctions.
+
+         4-> const sectionHeight = section.offsetHeight; -> aqui analisamos a altura  da section e retornamos os valores utilizando metodo ( offsetHeight; ) que ira retornar todos os valores do elemento, incluindo o padding, border e margim.
+
+         5-> if (sectionHeight > maxHeight) { maxHeight = sectionHeight; }  -> aqui verificamos se a altura total das Sections é maior q  a altura máxima. Se for, ela atualizara o valor das Sections para o valor de maxHeight assim fazendo as sections ter a mesma autura. 
+
+         6-> section.style.minHeight = maxHeight + 'px';  -> Após percorrer todas as seções e determinar a altura máxima, aqui vamos definir q a altura mínima que queremos será = a altura máxima, assim garantindo q sempre todas as sections tenha a mesma altura. 
+
+         7-> window.addEventListener('load', equalizeSectionsHeight);:  ->  aqui add um evento para q quando toda a pg ja estiver carregada chamamos a função  equalizeSectionsHeight() .
+
+         8-> window.addEventListener('resize', equalizeSectionsHeight);: -> aqui add um evento para q sempre q entramos ou rosetar a pg, chamaremos a função  equalizeSectionsHeight().
+
+
+               function  -> é um codigo q pode ser chamado e executado quando necessário.
+
+               const -> serve para declarar uma VAR em JS que não pode ser  REATRIBUIDA.  Ou seja, uma vez que inserir uma valor a VAR este valor n muda. No entanto, os dados armazenados dentro de um objeto ou matriz declarados com const podem ser modificados. 
+
+               let -> serve para declarar uma VAR em JS que pode ser REATRIBUIDA. Ou seja, vc pode mudar valor. . A variável também é acessível apenas dentro do bloco onde foi declarada. 
+ -->
+
 </body>
 </html>
