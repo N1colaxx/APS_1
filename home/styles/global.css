@@ -23,13 +23,6 @@
 body, button, a {
   color: var(--text);
   font: 400 1rem "Mukta", sans-serif;
-
-  display: flex;
-  flex-direction: column;
-  align-items:center;
-
-  width: 100%;
-  height: 100%;
 }
 
 a {

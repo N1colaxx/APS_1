@@ -9,8 +9,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./styles/global.css">
-
+   <link rel="stylesheet" href="./styles/global.css">
+   <link rel="stylesheet" href="./styles/header.css">
+ 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Mukta:wght@300;400;600&display=swap" rel="stylesheet">
@@ -27,208 +28,51 @@
   </div>
 <!----------------------logo / links---------------------------------------------->
 
-<header>
-  <img src="./assets/icone.png" alt="">
-  <ul class="navigation">
-   <li>
-      <a href="#"  class="navigation_link H">Home</a>
-     </li>
-    <li>
-     <!-- <a href="/Inovação/inovação.html"  class="navigation_link">Inovaçães</a>
-    </li> -->
-    <li>
-      <a href="/criadores/criadores.html"  class="navigation_link">Desenvolvedores</a>
-     </li>
-    <li>
-  </ul>
+<header id="header">
+      <div class="header1">  
+               <img src="./assets/icone.png" alt="carro amarelo">
+         <ul class="navigation">
+         <li>
+            <a href="#"  class="navigation_link H">Home</a>
+            </li>
+         <li>
+            <!-- <a href="/Inovação/inovação.html"  class="navigation_link">Inovaçães</a>
+         </li> -->
+         <li>
+            <a href="/criadores/criadores.html"  class="navigation_link">Desenvolvedores</a>
+            </li>
+         <li>
+         </ul>
 
-
-      <div class="navigation_social">
-            <!--icone animado do carro com flor-->
-            <a href="https://youtu.be/cxJv-6RIANQ"target="_blank">
-               <svg width="64px" height="61px" viewBox="0 0 64 61" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                  <title>CLIQUE AQUI: Para saber a importancia dos carros elétrico a etanol no mundo!</title>
-                  <desc>Created with Sketch.</desc>
-                  <defs></defs>
-                  <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                     <g id="Artboard" transform="translate(-127.000000, -22.000000)">
-                           <g id="Car" transform="translate(127.000000, 20.000000)">
-                              <path d="M4,44 L16,44 L16,62.0052288 C16,62.5546258 15.544239,63 14.9975267,63 L5.00247329,63 C4.44882258,63 4,62.5490746 4,62.0052288 L4,44 Z" id="Rectangle-180" fill="#595959"></path>
-                              <path d="M48,44 L60,44 L60,62.0052288 C60,62.5546258 59.544239,63 58.9975267,63 L49.0024733,63 C48.4488226,63 48,62.5490746 48,62.0052288 L48,44 Z" id="Rectangle-180-Copy" fill="#595959"></path>
-                              <path d="M12.3711017,25.9348588 C12.7184326,24.313981 14.3157786,22.7091828 15.9427546,22.3972219 C15.9427546,22.3972219 21,21 32,21 C43,21 48.0723587,22.3999341 48.0723587,22.3999341 C49.6892503,22.7313413 51.2822327,24.317086 51.6288983,25.9348588 L54,37 L10,37 L12.3711017,25.9348588 Z" id="Rectangle-182" stroke="#22BA8E" stroke-width="2" fill="#B4DFFB" stroke-linecap="round"></path>
-                              <path d="M3.71780829,43.9726036 C3.32137372,39.0171715 7.03239867,35 11.9988624,35 L52.0011376,35 C56.9710721,35 60.6786654,39.0166825 60.2821917,43.9726036 L59.3987243,55.015946 C59.178515,57.768563 56.7824659,59.7400895 54.0286526,59.4518815 C54.0286526,59.4518815 45.5000217,58.2639083 32.0000145,58.2639083 C18.5000074,58.2639083 9.95932405,59.4530727 9.95932405,59.4530727 C7.22036501,59.7551323 4.82075324,57.7594154 4.60127568,55.015946 L3.71780829,43.9726036 Z" id="Rectangle-176" fill="#22BA8E"></path>
-                              <rect id="Rectangle-181" fill="#5B68C0" x="23" y="46" width="18" height="8" rx="3"></rect>
-                              <rect id="Rectangle-178" fill="#ECECEC" x="9" y="53" width="11" height="2"></rect>
-                              <rect id="Rectangle-178-Copy" fill="#ECECEC" x="45" y="53" width="11" height="2"></rect>
-                              <path d="M7.3274374,45.9646244 C7.14659872,44.8795923 7.88158174,44.1602876 8.96657956,44.3575599 L16.0334204,45.6424401 C17.1195323,45.839915 18,46.8877296 18,48 L18,48 C18,49.1045695 17.1125667,50 16.000385,50 L9.99961498,50 C8.89525812,50 7.85244656,49.1146793 7.6725626,48.0353756 L7.3274374,45.9646244 Z" id="Rectangle-179" fill="#ECECEC"></path>
-                              <path d="M46.3274374,45.9646244 C46.1465987,44.8795923 46.8815817,44.1602876 47.9665796,44.3575599 L55.0334204,45.6424401 C56.1195323,45.839915 57,46.8877296 57,48 L57,48 C57,49.1045695 56.1125667,50 55.000385,50 L48.999615,50 C47.8952581,50 46.8524466,49.1146793 46.6725626,48.0353756 L46.3274374,45.9646244 Z" id="Rectangle-179-Copy" fill="#ECECEC" transform="translate(51.500000, 47.000000) scale(-1, 1) translate(-51.500000, -47.000000) "></path>
-                              <path d="M55,31.532984 C55,30.429567 55.8629578,29.7747813 56.9307258,30.0713836 L64,32.0350708 L64,33.5396981 C64,34.641712 63.1041422,35.5350708 62.0026083,35.5350708 L55,35.5350708 L55,31.532984 Z" id="Rectangle-177" fill="#22BA8E"></path>
-                              <path d="M0,31.532984 C0,30.429567 0.862957835,29.7747813 1.9307258,30.0713836 L9,32.0350708 L9,33.5396981 C9,34.641712 8.10414219,35.5350708 7.0026083,35.5350708 L0,35.5350708 L0,31.532984 Z" id="Rectangle-177-Copy" fill="#22BA8E" transform="translate(4.500000, 32.767535) scale(-1, 1) translate(-4.500000, -32.767535) "></path>
-                              <path d="M27,34.9979131 C27,33.8944962 27.8874333,33 28.999615,33 L35.000385,33 C36.1047419,33 37,33.8982606 37,34.9979131 L37,39 L27,39 L27,34.9979131 Z" id="Rectangle-183" fill="#22BA8E"></path>
-                              <path d="M47.5044647,15.529591 C50.2658885,15.529591 52.5044647,13.1876959 52.5044647,10.2988218 C52.5044647,7.40994771 47.5044647,-1.47040899 47.5044647,-1.47040899 C47.5044647,-1.47040899 42.5044647,7.40994771 42.5044647,10.2988218 C42.5044647,13.1876959 44.743041,15.529591 47.5044647,15.529591 Z" id="Oval" fill="#80D25B" transform="translate(47.504465, 7.029591) rotate(-285.000000) translate(-47.504465, -7.029591) "></path>
-                              <path d="M17.5044647,15.529591 C20.2658885,15.529591 22.5044647,13.1876959 22.5044647,10.2988218 C22.5044647,7.40994771 17.5044647,-1.47040899 17.5044647,-1.47040899 C17.5044647,-1.47040899 12.5044647,7.40994771 12.5044647,10.2988218 C12.5044647,13.1876959 14.743041,15.529591 17.5044647,15.529591 Z" id="Oval" fill="#80D25B" transform="translate(17.504465, 7.029591) scale(-1, 1) rotate(-285.000000) translate(-17.504465, -7.029591) "></path>
-                              <path d="M44,8 C37.372583,8 32,13.372583 32,20" id="Oval-2" stroke="#22BA8E" stroke-width="2" stroke-linecap="round"></path>
-                              <path d="M32,8 C25.372583,8 20,13.372583 20,20" id="Oval-2" stroke="#22BA8E" stroke-width="2" stroke-linecap="round" transform="translate(26.000000, 14.000000) scale(-1, 1) translate(-26.000000, -14.000000) "></path>
-                           </g>
-                     </g>
-                  </g>
-               </svg>
-            </a>
-
-            <!--terra-->
-            <a href="https://www.portaldaindustria.com.br/industria-de-a-z/sustentabilidade/#:~:text=O%20que%20%C3%A9%20sustentabilidade%3F,econ%C3%B4mico%20e%20a%20preserva%C3%A7%C3%A3o%20ambiental."target="_blank">
-               <svg
-                  width="48pt"
-                  height="48pt"
-                  viewBox="0 0 16.933334 16.933333"
-                  version="1.1"
-                  id="svg979"
-                  inkscape:version="1.1 (c68e22c387, 2021-05-23)"
-                  sodipodi:docname="24 - Earth.svg"
-                  inkscape:export-filename="E:\TR Design Studio Creative\Project Design\TR Creative Design\Icon Design\Project Hiring\Icon Icons\006 - Ecology\Send\3 - Flat\24 - Earth.png"
-                  inkscape:export-xdpi="768"
-                  inkscape:export-ydpi="768"
-                  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-                  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-                  xmlns="http://www.w3.org/2000/svg"
-                  xmlns:svg="http://www.w3.org/2000/svg"
-                  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                  xmlns:cc="http://creativecommons.org/ns#"
-                  xmlns:dc="http://purl.org/dc/elements/1.1/">
-               <defs
-                  id="defs973" />
-               <sodipodi:namedview
-                  id="base"
-                  pagecolor="#ffffff"
-                  bordercolor="#666666"
-                  borderopacity="1.0"
-                  inkscape:pageopacity="0.0"
-                  inkscape:pageshadow="2"
-                  inkscape:zoom="7.6875"
-                  inkscape:cx="26.601626"
-                  inkscape:cy="32"
-                  inkscape:document-units="pt"
-                  inkscape:current-layer="layer1"
-                  showgrid="false"
-                  units="pt"
-                  inkscape:window-width="1366"
-                  inkscape:window-height="716"
-                  inkscape:window-x="-8"
-                  inkscape:window-y="-8"
-                  inkscape:window-maximized="1"
-                  inkscape:pagecheckerboard="0"
-                  inkscape:snap-bbox="true"
-                  inkscape:snap-nodes="false"
-                  inkscape:bbox-nodes="true"
-                  showguides="false">
-                  <inkscape:grid
-                     type="xygrid"
-                     id="grid1526" />
-                  <sodipodi:guide
-                     position="0.97013909,15.963209"
-                     orientation="56.666615,0"
-                     id="guide1528"
-                     inkscape:locked="false" />
-                  <sodipodi:guide
-                     position="0.97013909,0.97016731"
-                     orientation="0,56.666667"
-                     id="guide1530"
-                     inkscape:locked="false" />
-                  <sodipodi:guide
-                     position="15.963195,0.97016731"
-                     orientation="-56.666615,0"
-                     id="guide1532"
-                     inkscape:locked="false" />
-                  <sodipodi:guide
-                     position="15.963195,15.963209"
-                     orientation="0,-56.666667"
-                     id="guide1534"
-                     inkscape:locked="false" />
-               </sodipodi:namedview>
-               <metadata
-                  id="metadata976">
-                  <rdf:RDF>
-                     <cc:Work
-                        rdf:about="">
-                     <dc:format>image/svg+xml</dc:format>
-                     <dc:type
-                        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-                     </cc:Work>
-                  </rdf:RDF>
-               </metadata>
-               <g
-                  inkscape:label="Layer 1"
-                  inkscape:groupmode="layer"
-                  id="layer1"
-                  transform="translate(0,-280.06668)">
-                  <g
-                     id="g302060"
-                     style="display:inline;stroke-width:0.81173"
-                     transform="matrix(1.2319363,0,0,1.2319363,-80.712756,-123.7671)">
-                     <path
-                        style="color:#000000;fill:#87d1ee;stroke-width:0.81173;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 72.390625,328.5918 c -3.357747,0 -6.085937,2.72623 -6.085938,6.08398 0,3.35775 2.728191,6.08594 6.085938,6.08594 3.357747,0 6.083984,-2.72819 6.083984,-6.08594 0,-3.35775 -2.726237,-6.08398 -6.083984,-6.08398 z"
-                        id="path287660" />
-                     <path
-                        id="path289905"
-                        style="color:#000000;fill:#2bb3cd;fill-opacity:1;stroke-width:0.81173;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 72.390224,328.5918 c -1.846683,0 -3.502638,0.82468 -4.619355,2.12545 0.763731,-0.34545 1.610789,-0.53795 2.502689,-0.53795 3.357747,0 6.084384,2.72612 6.084384,6.08386 0,1.51228 -0.553492,2.8969 -1.468128,3.96204 2.112847,-0.95484 3.584795,-3.0823 3.584795,-5.54954 0,-3.35774 -2.726637,-6.08386 -6.084385,-6.08386 z" />
-                     <path
-                        id="path287668"
-                        style="color:#000000;fill:#50b86b;stroke-width:3.06796;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 273.60156,167.40234 c -7.48118,0 -14.13342,3.58154 -18.33594,9.1211 l 0.9961,0.57812 c 0.14933,0.11452 5.1928,3.96795 10.52734,3.86133 0.6036,-7.9e-4 1.32276,-0.10259 2.05274,-0.21484 1.17886,1.16092 2.1328,1.80532 3.9414,3.44726 1.25822,1.14225 2.47876,1.95248 3.875,2.06836 1.39624,0.11603 2.75067,-0.57303 3.99414,-1.86914 3.54959,-3.69966 3.88286,-8.29795 4.6875,-13.01367 a 1.0001006,1.0001006 0 0 0 0.008,-0.0508 l 0.082,-0.65235 c -3.45674,-2.07934 -7.50399,-3.27539 -11.82813,-3.27539 z"
-                        transform="matrix(0.26458333,0,0,0.26458333,0,284.3)" />
-                     <path
-                        id="path287676"
-                        style="color:#000000;fill:#50b86b;stroke-width:3.06796;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 268.17188,186.20117 c -0.49243,-0.003 -0.90729,0.0176 -1.20508,0.0176 h -15.98438 c -0.24935,1.35507 -0.38281,2.75109 -0.38281,4.17773 0,3.03736 0.59345,5.93774 1.66601,8.59375 l 0.59376,0.0723 c 1.13631,0.20787 2.28601,0.34201 3.34374,0.42188 1.74981,0.1319 3.26752,1.70882 4.4375,3.46093 0.92026,1.37817 2.22373,2.63112 3.71876,3.47657 1.48592,0.84026 3.20851,1.28044 4.88671,0.84179 1.68301,-0.37304 2.8906,-1.30394 3.53711,-2.41992 0.6431,-1.11012 0.77344,-2.34814 0.53125,-3.41797 v -0.002 c -0.28312,-1.42128 0.11566,-2.05441 0.73828,-2.94336 0.62292,-0.88932 1.60049,-1.98399 1.625,-3.67578 a 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 1.0001006,1.0001006 0 0 0 0,-0.002 c 0,-4.32601 -1.61529,-6.707 -3.60351,-7.74414 -1.36691,-0.71301 -2.81902,-0.83625 -3.90234,-0.84375 z"
-                        transform="matrix(0.26458333,0,0,0.26458333,0,284.3)" />
-                     <path
-                        id="path287684"
-                        style="color:#000000;fill:#50b86b;stroke-width:3.06796;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 291.08984,187.96289 c -1.18824,0.0144 -2.26038,0.3272 -3.16015,0.86133 -2.05663,1.22071 -3.20313,3.42426 -3.20313,5.52148 0,0.93128 -0.16468,1.43525 -0.36133,1.7793 -0.19664,0.34394 -0.46094,0.5736 -0.84179,0.87891 -0.38086,0.30538 -0.88392,0.67433 -1.29102,1.29882 -0.40709,0.62446 -0.6582,1.46935 -0.6582,2.53907 0,2.61025 0.30322,4.32858 0.90039,5.66211 0.59716,1.33353 1.46517,2.19563 2.35547,3.08593 l 0.5332,0.57032 c 6.72495,-4.01678 11.23438,-11.3695 11.23438,-19.76368 0,-0.16306 -0.002,-0.32601 -0.006,-0.48828 l -0.3711,-0.29492 a 1.0001006,1.0001006 0 0 0 -0.0879,-0.0586 c -1.59376,-1.00853 -3.13074,-1.49742 -4.52539,-1.58008 -0.17433,-0.0104 -0.34783,-0.0138 -0.51758,-0.0117 z"
-                        transform="matrix(0.26458333,0,0,0.26458333,0,284.3)" />
-                     <path
-                        id="path291789"
-                        style="color:#000000;fill:#46a05d;fill-opacity:1;stroke-width:0.811731;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 72.390412,328.59187 c -1.752896,-0.0115 -3.484885,0.78952 -4.618363,2.12503 1.800675,-0.82776 4.004606,-0.68994 5.684993,0.3624 0.51775,0.31879 0.987296,0.71554 1.388478,1.1724 0.429559,-0.86206 0.519449,-1.83617 0.671957,-2.77356 -0.193394,-0.16817 -0.486378,-0.27629 -0.729808,-0.39472 -0.754893,-0.32463 -1.575795,-0.4917 -2.397257,-0.49155 z" />
-                     <path
-                        id="path295652"
-                        style="color:#000000;fill:#46a05d;fill-opacity:1;stroke-width:0.81173;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 77.017519,334.03185 c -0.344578,0.003 -0.69079,0.10834 -0.967899,0.31579 0.56623,1.68149 0.344403,3.60706 -0.59849,5.11127 -0.0991,0.13272 -0.198467,0.25725 -0.02601,0.36337 0.11176,0.19413 0.291728,-0.10458 0.427895,-0.1436 1.38994,-0.95743 2.350605,-2.5128 2.567533,-4.18832 0.04123,-0.31272 0.05942,-0.62852 0.0527,-0.9439 -0.408371,-0.31658 -0.936442,-0.51661 -1.455732,-0.51461 z" />
-                     <path
-                        id="path299845"
-                        style="color:#000000;fill:#46a05d;fill-opacity:1;stroke-width:0.81173;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:markers fill stroke"
-                        d="m 70.953809,333.56573 c -0.130288,-9.1e-4 -0.240053,0.005 -0.318844,0.005 h -0.578776 c 0.26121,0.0138 0.574165,0.0633 0.871781,0.2186 0.52605,0.27441 0.953429,0.90438 0.953429,2.04897 a 0.26460995,0.26460995 0 0 0 0,5.1e-4 0.26460995,0.26460995 0 0 0 0,5.2e-4 0.26460995,0.26460995 0 0 0 0,5.2e-4 0.26460995,0.26460995 0 0 0 0,5.1e-4 0.26460995,0.26460995 0 0 0 0,5.2e-4 0.26460995,0.26460995 0 0 0 0,5.1e-4 0.26460995,0.26460995 0 0 0 0,5.2e-4 0.26460995,0.26460995 0 0 0 0,5.2e-4 c -0.0065,0.44762 -0.265134,0.73725 -0.429948,0.97255 -0.164735,0.23521 -0.270245,0.40271 -0.195337,0.77876 v 5.2e-4 c 0.06408,0.28306 0.02959,0.61062 -0.140559,0.90434 -0.149241,0.25761 -0.411338,0.47775 -0.771528,0.59531 0.287994,0.095 0.593757,0.12344 0.894001,0.045 0.445299,-0.0987 0.764804,-0.345 0.93586,-0.64027 0.170153,-0.29372 0.204639,-0.62128 0.14056,-0.90434 v -5.2e-4 c -0.07491,-0.37605 0.0306,-0.54355 0.195336,-0.77876 0.164815,-0.2353 0.423463,-0.52493 0.429948,-0.97255 a 0.26460995,0.26460995 0 0 0 0,-5.2e-4 0.26460995,0.26460995 0 0 0 0,-5.2e-4 0.26460995,0.26460995 0 0 0 0,-5.1e-4 0.26460995,0.26460995 0 0 0 0,-5.2e-4 0.26460995,0.26460995 0 0 0 0,-5.1e-4 0.26460995,0.26460995 0 0 0 0,-5.2e-4 0.26460995,0.26460995 0 0 0 0,-5.2e-4 0.26460995,0.26460995 0 0 0 0,-5.1e-4 c 0,-1.14459 -0.427379,-1.77456 -0.953428,-2.04897 -0.361662,-0.18865 -0.745866,-0.22127 -1.032495,-0.22325 z" />
-                  </g>
-               </g>
-               <title>CLIQUE AQUI: Para importância da sustentabilidade</title>
-               </svg>
-            </a>
-
-          <!--posto de gasolina-->
-            <a href="#"target="_blank">
-               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.62 60.62"><defs><style>.cls-1{isolation:isolate;}.cls-10,.cls-2{fill:#65a18f;}.cls-3{fill:#437465;}.cls-4{fill:#f1db42;}.cls-5{fill:#f8e659;}.cls-6{fill:#396458;}.cls-7{fill:#7bd9c2;}.cls-8{fill:#fff;}.cls-9{fill:#aad865;}.cls-10{opacity:0.5;mix-blend-mode:multiply;}</style></defs>
-                  <title>CLIQUE AQUI: Como encontrar postos de carregamento de carros elétricos? </title>
-                  <g class="cls-1"><g id="Capa_2" data-name="Capa 2"><g id="Layer_1" data-name="Layer 1"><path class="cls-2" d="M38,.21H7.65A3.59,3.59,0,0,0,4.07,3.79V53.6H41.6V3.79A3.58,3.58,0,0,0,38,.21Z"/><path class="cls-3" d="M42.15,53.6H3.5a3.51,3.51,0,0,0,0,7H42.15a3.51,3.51,0,1,0,0-7Z"/><path class="cls-4" d="M58.91,19.36v32.2a3.38,3.38,0,0,1-3.61,3.3H49a3.5,3.5,0,0,1-2.63-1,3.43,3.43,0,0,1-.95-2.32V13.26a1.53,1.53,0,0,0-1.25-1.58H42.62V9.16h1.91A4.07,4.07,0,0,1,48,13.26v38.3c0,.77.77.77,1,.77H55.3c.39,0,1.09-.11,1.09-.77V19.36a1.25,1.25,0,0,1,1.26-1.26A1.26,1.26,0,0,1,58.91,19.36Z"/><rect class="cls-4" x="41.62" y="9.16" width="1" height="2.53"/><path class="cls-5" d="M42.62,8.47v3.82a1.13,1.13,0,0,1-1,1.12V7.35A1.12,1.12,0,0,1,42.62,8.47Z"/><path class="cls-6" d="M45.67,57.1a3.5,3.5,0,0,1-3.5,3.52H22.83v-7H42.17A3.5,3.5,0,0,1,45.67,57.1Z"/><path class="cls-7" d="M57.64,12.74a1.26,1.26,0,0,1-1.26-1.27V8.7L51.84,2A1.25,1.25,0,0,1,52.17.22a1.27,1.27,0,0,1,1.76.34l4.76,7a1.29,1.29,0,0,1,.22.71v3.16A1.27,1.27,0,0,1,57.64,12.74Z"/><path class="cls-2" d="M58.6,9.79H53.89a2,2,0,0,0-2,2V19a2,2,0,0,0,2,2H58.6a2,2,0,0,0,2-2V11.8A2,2,0,0,0,58.6,9.79ZM54.81,19a1,1,0,1,1-2,0V13a1,1,0,0,1,2,0Z"/><path class="cls-8" d="M53.83,12a1,1,0,0,0-1,1v6a1,1,0,1,0,2,0V13A1,1,0,0,0,53.83,12Z"/><path class="cls-9" d="M37.93,29.27c-1.55-1.9-6.49-.33-9.51,2.2-2.61,2.17-2.61,4.76-1.83,6.28l-2.94,2.4v-5c1.63-.42,3.47-2.06,3.47-5.42,0-3.93-1.87-8.69-4.29-8.7s-4.41,4.77-4.41,8.71c0,3.16,1.7,4.79,3.28,5.32v6l-3.65-4.24c.76-1.41.86-3.64-1.07-6-2.53-3-7-5.47-8.88-3.93s-.31,6.49,2.2,9.51c2.23,2.68,4.88,2.62,6.4,1.78l4.79,5.57.05.06h0l.15.18v5.76a.38.38,0,0,0,.37.38h1.2a.39.39,0,0,0,.38-.38V42.65l4.29-3.49c1.4.8,3.67,1,6.06-1C37,35.61,39.47,31.14,37.93,29.27Z"/><path class="cls-7" d="M36.08,4.21H9.56A1.78,1.78,0,0,0,7.78,6v8.84a1.79,1.79,0,0,0,1.78,1.79H36.08a1.79,1.79,0,0,0,1.79-1.79V6A1.78,1.78,0,0,0,36.08,4.21Z"/><path class="cls-10" d="M22.84.21V53.6H41.6V3.79A3.58,3.58,0,0,0,38,.21Z"/></g></g></g>
-               </svg>
-            </a>
-
-            <!-- Bateria -->
-            <a href="#" target="_blank"> 
-               <img class="imgBattery" src="./assets/SVG/battery-1.svg" alt="bateria">
-            </a>
+            <div class="navigation_social">
+                  <!--icone animado do carro com flor-->
+                  <a href="https://youtu.be/cxJv-6RIANQ" target="_blank">
+                     <img  src="./assets/SVG/car-svgrepo-com.svg" alt="carro-verde">
+                  </a>                     
+                     
+                  <!-- icon terra -->
+                  <a href="#" target="_blank">
+                     <img src="./assets/SVG/planet.svg" alt="planeta terra">
+                  </a>
+      
+                  <!-- icon bomba de gasolina -->
+                  <a href="W" target="_blank" rel="noopener noreferrer">
+                     <img src="./assets/SVG/bomba-gasolina.svg" alt="bomba de gasolina"  width="300px">
+                  </a>
+                  <!-- Bateria -->
+                  <a href="#" target="_blank"> 
+                     <img src="./assets/SVG/battery-1.svg" alt="bateria">
+                  </a>
+            </div>
       </div>
-    
   </header>
   <!-------------------foto do meio------------------------------->
 <main>
 
 
-
-   <div class="container">
+   <div class="container1">
       <div class="info">
-         <img class="imgCL" src="./assets/carro_eletrico.png" alt="Carro elético">
+         <img class="imgCB" src="./assets/carro_eletrico.png" alt="Carro elético">
           
             <p class="p1"> Intodução  :</p>
             <p>               
@@ -238,7 +82,7 @@
             <a href="https://www.youtube.com/watch?v=nngbWChehXc&ab_channel=Brasscom"target="_blank">Clique aqui para ver o video completo sobre Mobilidade Sustentável</a> 
          </div>
       </div>
-      <img src="./assets/carro_planta.png"width="500px" alt="carro sustentável">
+      <img class="imgCV" src="./assets/carro_planta.png" alt="carro sustentável">
    </div>
    
 
@@ -413,7 +257,7 @@
    <div class="container-3">
       <section class="section">
          <p class="title"> Legislação e Políticas </p>
-         <div class="assunto">
+         <div class="assunto ">
                   <p>
                      <strong><u>Leis e regulamentos:</u></strong>
                         <p>
@@ -423,7 +267,7 @@
                         <p>
                            Planos de mobilidade urbana que visam promover o transporte público e os modos ativos de locomoção, como caminhar e andar de bicicleta.
                         </p>
-                  </p>
+                  </p>                            
          </div>
       </section>
       <section class="section">
@@ -497,16 +341,71 @@
                               GreenBiz, Sustainable Mobility, The Urban Mobility DailyAcompanhe seções dedicadas à sustentabilidade em jornais como The Guardian, New York Times e Financial Times.
                            </p> 
             </p>
-               
+         </div>
+       </div>
+   </div>
+ 
 
-    
-
+   <div id="aling">
+      <a href="#top" >
+         <button class="btn2">
+           <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+             <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707z"/>
+           </svg>
+         </button>
+       </a>
+   </div>
 
    
+
+
          <footer>
             <p>&copy; Todos os direitos reservados </p>
          </footer>
 
 </main>
+
+<script>
+      function equalizeSectionsHeight() {
+         const sections = document.querySelectorAll('.container-3 .section');
+         let maxHeight = 0;
+         sections.forEach(section => {
+            const sectionHeight = section.offsetHeight;
+            if (sectionHeight > maxHeight) {
+               maxHeight = sectionHeight;
+            }
+         });
+         sections.forEach(section => {
+            section.style.minHeight = maxHeight + 'px';
+         });
+      }
+      
+      window.addEventListener('load', equalizeSectionsHeight);
+      window.addEventListener('resize', equalizeSectionsHeight);
+</script>
+
+<!-- 
+         2-> let maxHeight = 0;  , aqui chama a VAR maxHeight, e inicializa com o valor 0, E será usada para achar  a altura máxima  entre as sections.
+
+         3-> sections.forEach(section => { ... });    -> aqui chamamos o metodo forEach em todas as SEctions.
+
+         4-> const sectionHeight = section.offsetHeight; -> aqui analisamos a altura  da section e retornamos os valores utilizando metodo ( offsetHeight; ) que ira retornar todos os valores do elemento, incluindo o padding, border e margim.
+
+         5-> if (sectionHeight > maxHeight) { maxHeight = sectionHeight; }  -> aqui verificamos se a altura total das Sections é maior q  a altura máxima. Se for, ela atualizara o valor das Sections para o valor de maxHeight assim fazendo as sections ter a mesma autura. 
+
+         6-> section.style.minHeight = maxHeight + 'px';  -> Após percorrer todas as seções e determinar a altura máxima, aqui vamos definir q a altura mínima que queremos será = a altura máxima, assim garantindo q sempre todas as sections tenha a mesma altura. 
+
+         7-> window.addEventListener('load', equalizeSectionsHeight);:  ->  aqui add um evento para q quando toda a pg ja estiver carregada chamamos a função  equalizeSectionsHeight() .
+
+         8-> window.addEventListener('resize', equalizeSectionsHeight);: -> aqui add um evento para q sempre q entramos ou rosetar a pg, chamaremos a função  equalizeSectionsHeight().
+
+
+               function  -> é um codigo q pode ser chamado e executado quando necessário.
+
+               const -> serve para declarar uma VAR em JS que não pode ser  REATRIBUIDA.  Ou seja, uma vez que inserir uma valor a VAR este valor n muda. No entanto, os dados armazenados dentro de um objeto ou matriz declarados com const podem ser modificados. 
+
+               let -> serve para declarar uma VAR em JS que pode ser REATRIBUIDA. Ou seja, vc pode mudar valor. . A variável também é acessível apenas dentro do bloco onde foi declarada. 
+ -->
+
 </body>
 </html>
